@@ -1,0 +1,16 @@
+h1 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 24px;
+    color: blueviolet;
+}
+
+ul {
+    background-color: blueviolet;
+}
+.profile-img {
+    width: 300px;
+    height: 200px;
+   
+}
+
+
