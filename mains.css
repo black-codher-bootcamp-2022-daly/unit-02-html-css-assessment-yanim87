@@ -3,14 +3,18 @@ h1 {
     font-size: 24px;
     color: blueviolet;
     font-weight: bold;
+    position: relative;
 }
 
 ul {
     background-color: blueviolet;
 }
+
+
 .profile-img {
     width: 300px;
     height: 200px;   
+    position: relative;
 }
 .about-me {
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -21,7 +25,10 @@ background-color: cyan;
 .projects {
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 16px;
-
+cursor: pointer;
 }
 
 
+.social-media {
+background-color: teal;    
+}
