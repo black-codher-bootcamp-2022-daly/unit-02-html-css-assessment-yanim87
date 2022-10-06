@@ -10,42 +10,46 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap" rel="stylesheet">
     <title>Unit 02 HTML CSS Assessment</title>
-    <section { 
-        class="about-me"
-    }
-    >
-    <div class="profile-img" >
-    <img src = "Blackhijabiavatar.jpg"
-    img>
+    
+    
     <style>
+        * { margin: 0; padding: 0;}
+
      h1 {
          color: violet;
          font-size: 24px;
          font-family: 'Urbanist', sans-serif;
      }
-     div {
-         color:teal;
-     }
-     
 
-    
+
     
 </style>
 </head>
 
-<body>
+<body background = "pastel-sky-background_image.jpeg">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>   
     <main>
+        <div class="bg-img">
+            <header>
+                <nav>
+<a href="#home"> HOME </a> 
+<a href="#about"> ABOUT</a>
+<a href="#projects"> PROJECTS</a>
+<a href="#contact"> CONTACT ME</a>
+                </nav>
+            </header>
+        </div>
     <h1>
         Yetunde Animashawun
     </h1>
 
-    <section>
-        Hi, my name is Yetunde. I am part of the Daly cohort of black Codher.
+    <section class="about-me">
+        Hi, my name is <strong> Yetunde. </strong> I am part of the Daly cohort of black Codher.
     </section>
     <img class="profile-img" src="images/Blackhijabiavatar.png" alt="Yetunde avatar">
-    <!-- img class= "profile-img" src="images/Blackhijabiavatar.png alt ="Yetunde avatar"-->
-    <div class ="profile-img"></div>
-<ul>
+    
+<ul class="projects">
    The projects current and upcoming on my Blackcodher course are the following:
     <li> HTML and CSS </li>
    <li> JavaScript group project </li> 
@@ -58,18 +62,24 @@
 </ul>
 <footer>
     
-    <ul>
+    <ul class="social-media">
     
         Social Media links:
-       <li> GitHub </li> 
-        <li> Facebook </li>
-        <li> Instagram </li>
-        <li> Twitter </li>
-        <li> LinkedIn </li>
+       <li> GitHub <a href= "https://github.com/" >
+        <ion-icon name="logo-github"></ion-icon> </a> </li> 
+        <li> Facebook <a href="https://facebook.com/yetunde.f.animashawun/"> 
+        <ion-icon name="logo-facebook"></ion-icon> </a> </li>
+        <li> Instagram <a href="https://www.instagram.com/blackcodher/?hl=en"> 
+       <ion-icon name="logo-instagram"></ion-icon> </a> </li>
+        <li> Twitter <a href="https://twitter.com/blackcodher">
+        <ion-icon name="logo-twitter"></ion-icon> </a> </li>
+        <li> LinkedIn <a href="https://www.linkedin.com/in/yetunde-animashawun-7887784b">
+        <ion-icon name="logo-linkedin"></ion-icon> </a> </li>
     
 
 </ul>
 </footer>
+
 </main>
 </body>
 </html>
