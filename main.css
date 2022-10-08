@@ -1,11 +1,5 @@
-h1 {
-    font-family: 'Urbanist', sans-serif;
-    font-size: 60px;
-    color: blueviolet;
-    font-weight: bold;
-    position: center;
-    padding: 15px;
-}
+@import url('/styles/keyframes.css');
+
 
 ul {
     padding: 25px;
