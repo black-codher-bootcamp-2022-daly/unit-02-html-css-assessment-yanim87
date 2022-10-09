@@ -1,4 +1,4 @@
-[TODO: Replace with your Netflify status badge]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c6859888-aedc-4506-987d-02d1c562ba6a/deploy-status)](https://app.netlify.com/sites/lustrous-syrniki-4e048c/deploys)
 
 # HTML and CSS Assessment
 
@@ -22,7 +22,7 @@ You are free to add more content and style it anyway you want. Below is some [ex
     1. Meta
         1. `<title>`
         1. `<link>` including a favicon
-    1. `<h1>` with your name
+    1. `<h1>` with your name - Yetunde
     1. `<section>` containing a brief description of yourself, with the class name `about-me`
     1. `<img>` containing an image of yourself or your avatar, with the class name `profile-img`
     1. `<ul>` containing all of your current and upcoming projects, with the class name `projects`

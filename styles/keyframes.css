@@ -6,3 +6,15 @@ h2 {
     position: center;
     padding: 15px;
 }
+div.projects{
+    color: blueviolet;
+  }
+.projects :hover
+{
+    background-color: cornflowerblue;
+    animation: alternate 2s ease-in 3;
+}
+
+@keyframes alternate {
+    100% { transform: translateX(100%);
+} }
