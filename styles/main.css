@@ -1,4 +1,8 @@
 @import url('/styles/keyframes.css');
+@font-face {
+  src: url(fonts/Kalam-Regular.ttf);
+  font-family: Kalam-Regular;
+}
 
 h1 {
   font-family: 'Amaranth', sans-serif;
