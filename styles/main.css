@@ -1,5 +1,14 @@
 @import url('/styles/keyframes.css');
 
+h1 {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 60px;
+  color: blueviolet;
+  font-weight: bold;
+  position: center;
+  padding: 15px;
+}
+
 
 ul {
     padding: 25px;
